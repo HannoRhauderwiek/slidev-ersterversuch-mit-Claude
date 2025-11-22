@@ -1,0 +1,35 @@
+{
+  "name": "slidev-ki-schulung-vorlage",
+  "version": "1.0.0",
+  "description": "Professionelle Slidev-Präsentationsvorlage für KI-Schulungen in der Erwachsenenbildung",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "export-pdf": "slidev export --format pdf",
+    "export-pptx": "slidev export --format pptx",
+    "export-png": "slidev export --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.52.0",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "slidev",
+    "presentation",
+    "ki-schulung",
+    "erwachsenenbildung",
+    "vue",
+    "template"
+  ],
+  "author": "KI-Schulungen Team",
+  "license": "MIT"
+}
